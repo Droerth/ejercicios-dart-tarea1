@@ -1,0 +1,18 @@
+void main() {
+  String palabra = "computadora";
+  int contador = 0;
+
+  for (int i = 0; i < palabra.length; i++) {
+    String letra = palabra[i];
+
+    if (letra == "a" ||
+        letra == "e" ||
+        letra == "i" ||
+        letra == "o" ||
+        letra == "u") {
+      contador++;
+    }
+  }
+
+  print(contador);
+}
